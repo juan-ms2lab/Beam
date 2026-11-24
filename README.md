@@ -19,19 +19,24 @@
 > [GNU GPL v3](./COPYING); this fork keeps that license. All credit for Beam goes to
 > the original author — please report Beam issues and send contributions upstream.
 >
-> **What this fork adds** (branch `minidesk`): a ready-made test rig for
-> [MiniDesk](https://github.com/juan-ms2lab/minidesk-ios), an iPhone/iPad Art-Net
-> lighting desk by JFS - Imagiro.
-> - `minidesk-test/MiniDesk.beam` — 5 SHEHDS Spot 100W + 6 Bee Eye 19x40W (universe 0) on a truss frame over a stage with a DJ table and DJ cutout
+> **This fork is only a compile of Beam** (branch `minidesk`): a macOS build of
+> Paul's app plus a test file for [MiniDesk](https://github.com/juan-ms2lab/minidesk-ios),
+> an iPhone/iPad Art-Net lighting desk by JFS - Imagiro. MiniDesk will be available
+> soon on the App Store for iPhone and iPad.
+>
+> **Changes from upstream:**
+> - `minidesk-test/MiniDesk.beam` — test rig: 5 SHEHDS Spot 100W + 6 Bee Eye 19x40W
+>   (universe 0) on a truss frame over a stage with a DJ table and DJ cutout
 > - `minidesk-test/minidesk-demo.json` — the matching MiniDesk demo show (also built in:
 >   MiniDesk → Setup → Load Demo Show)
 > - `minidesk-test/Profiles/SHEHDS/` — fixture profiles (copy to
 >   `~/Documents/Beatline/Beam/Library/Profiles/SHEHDS/`; some channel ranges are assumed)
 > - `Launch Beam.command` — macOS double-click launcher (dev mode) opening the rig
+> - `package.json` — macOS builds produce a `.dmg` only
 > - a small fix so icons load when the project path contains `(` `)`
 >
-> A macOS (Apple Silicon) build is on this fork's
-> [Releases](https://github.com/juan-ms2lab/Beam/releases) page. It is unsigned:
+> The macOS (Apple Silicon) `.dmg` is on this fork's
+> [Releases](https://github.com/juan-ms2lab/Beam/releases) page. It is not notarized:
 > right-click → Open the first time.
 
 

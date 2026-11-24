@@ -60,6 +60,7 @@
   "build": {
     "asar": true,
     "npmRebuild": true,
+    "mac": { "target": "dmg" },
     "extraResources": [
       {
         "from": "./public/",
