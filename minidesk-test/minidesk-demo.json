@@ -15070,7 +15070,7 @@
         }
       ],
       "id": "4AF59177-CE41-429E-834D-0E11605585E7",
-      "name": "SHEHDS Spot 100W 6-Prism"
+      "name": "Spot 100W 6-Prism"
     },
     {
       "channels": [
@@ -15195,7 +15195,125 @@
         }
       ],
       "id": "1EECB203-5800-442C-9C6F-4271A33DEC9E",
-      "name": "SHEHDS Bee Eye 19x40W"
+      "name": "Bee Eye 19x40W"
+    },
+    {
+      "channels": [
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "2101F768-392D-4E08-B474-98C596C50A2D",
+          "label": "",
+          "type": 11
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "5B380EB0-1677-4C5C-B31F-0549F67CCDBD",
+          "label": "",
+          "type": 6
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "DAC3839C-B701-445C-8345-EF9694C773AD",
+          "label": "",
+          "type": 4
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "6FB7BAD3-3C95-429F-A249-238F8C179D11",
+          "label": "",
+          "type": 13
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "D59B0E1C-5565-431E-A7CB-94EF0853C380",
+          "label": "",
+          "type": 15
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "5FCDD442-22CE-4034-8EDC-706A82B028CB",
+          "label": "",
+          "type": 16
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "ECC7FB6F-C231-4C67-8A36-3DC9998EBBCB",
+          "label": "Effect",
+          "type": 24
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "5FABED04-54A2-4657-95C8-344DA35D5080",
+          "label": "",
+          "type": 20
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "856B391A-4836-4B12-BE8F-AAEAADDC30E9",
+          "label": "",
+          "type": 17
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "96905A9C-C5E5-4745-A110-7A7A80CEE7AB",
+          "label": "",
+          "type": 0
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "B6728826-DFC3-499D-A6BF-82E4F647D0BE",
+          "label": "",
+          "type": 1
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "9C32E79B-DF04-4AF8-A3B7-E64F60F7D75F",
+          "label": "",
+          "type": 2
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "8DA1F223-FDE4-4188-973D-7793C526B7A3",
+          "label": "",
+          "type": 3
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "84DB1833-B5E3-46CE-B03A-7563D5A2EC92",
+          "label": "Function",
+          "type": 22
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "B4C5EC11-A51A-4839-9DD6-689126B8EA08",
+          "label": "",
+          "type": 23
+        },
+        {
+          "defaultVal": 0,
+          "highlightVal": 0,
+          "id": "BFE855A3-FF76-42E6-A785-F02B5B2C7B5D",
+          "label": "Lamp",
+          "type": 22
+        }
+      ],
+      "id": "8FD64A46-5670-4806-B296-665CDCE9B99D",
+      "name": "Sharpy 280W 10R"
     }
   ],
   "groups": [
@@ -15224,8 +15342,13 @@
     },
     {
       "id": "926097D7-062E-46D1-B72A-98CAB9CA756E",
-      "members": [],
-      "name": "Group 3"
+      "members": [
+        "25D11066-2B02-4739-AD06-81238F7C2CB3",
+        "ED2C8664-4104-4AA3-BE94-B72D57A47AB7",
+        "569B8C89-E557-4F10-8E6A-B9E7A1A50D30",
+        "536958DC-F40F-438B-BCD1-A1C2C46BC76F"
+      ],
+      "name": "Sharpys"
     },
     {
       "id": "6008E2A6-7101-4B52-BC7D-31692D827DC6",
@@ -15435,6 +15558,9 @@
     0,
     0,
     0,
+    128,
+    0,
+    128,
     0,
     0,
     0,
@@ -15448,6 +15574,9 @@
     0,
     0,
     0,
+    128,
+    0,
+    128,
     0,
     0,
     0,
@@ -15461,6 +15590,9 @@
     0,
     0,
     0,
+    128,
+    0,
+    128,
     0,
     0,
     0,
@@ -15474,18 +15606,9 @@
     0,
     0,
     0,
+    128,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    128,
     0,
     0,
     0,
@@ -15877,8 +16000,48 @@
         "y": -1
       },
       "startAddr": 156
+    },
+    {
+      "definitionId": "8FD64A46-5670-4806-B296-665CDCE9B99D",
+      "hung": true,
+      "id": "25D11066-2B02-4739-AD06-81238F7C2CB3",
+      "pos": {
+        "x": -3,
+        "y": -2
+      },
+      "startAddr": 173
+    },
+    {
+      "definitionId": "8FD64A46-5670-4806-B296-665CDCE9B99D",
+      "hung": true,
+      "id": "ED2C8664-4104-4AA3-BE94-B72D57A47AB7",
+      "pos": {
+        "x": -3,
+        "y": -2
+      },
+      "startAddr": 189
+    },
+    {
+      "definitionId": "8FD64A46-5670-4806-B296-665CDCE9B99D",
+      "hung": true,
+      "id": "569B8C89-E557-4F10-8E6A-B9E7A1A50D30",
+      "pos": {
+        "x": 3,
+        "y": -2
+      },
+      "startAddr": 205
+    },
+    {
+      "definitionId": "8FD64A46-5670-4806-B296-665CDCE9B99D",
+      "hung": true,
+      "id": "536958DC-F40F-438B-BCD1-A1C2C46BC76F",
+      "pos": {
+        "x": 3,
+        "y": -2
+      },
+      "startAddr": 221
     }
   ],
   "stepsX": 7,
-  "stepsY": 3
+  "stepsY": 5
 }

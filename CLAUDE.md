@@ -129,6 +129,11 @@ Art-Net universe 0 on UDP 6454 and Beam draws it.
   - `Bee Eye 19x40W.json` 17 ch, **assumed from ch 7 on** (ch 1-6 confirmed:
     Pan, Pan fine, Tilt, Tilt fine, P/T speed, Zoom).
   - In-channel ranges (wheel slots, strobe-open, zoom 60°→4°) are assumptions.
+- **Sharpy 280W 10R** ×4 (`Profiles/Generic/`, 16ch: Color, Strobe, Dimmer, Gobo,
+  Prism, Prism rot, Effect, Frost, Focus, Pan, Pan fine, Tilt, Tilt fine, Function,
+  Reset, Lamp; common clone chart, ranges assumed) at DMX 173/189/205/221, on two FOH
+  truss towers at x = ±5, y = −21.5 (20 m in front of the stage edge), hung at 6 m
+  under a 1.6 m crossbar, 2 per tower (x ±0.5). Editor camera pulled back to y = −34.
 - **Patch / positions** (MiniDesk grid x, y; x<0 house left, y<0 front):
 
   | Fixture | DMX | x | y |
