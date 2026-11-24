@@ -9,6 +9,7 @@
 import { defineAsyncComponent } from 'vue';
 
 const iconMap = new Map();
+const icons = import.meta.glob('./images/*.svg', { query: '?component' });
 
 /**
  * @component Icon Display css-customisable SVG icons from a list of pre-defined icons.
@@ -41,7 +42,10 @@ export default {
       if (!iconMap.has(this.name)) {
         iconMap.set(this.name, defineAsyncComponent(async () => {
           try {
-            return await import(`./images/${this.name}.svg?component`);
+            // import.meta.glob, not import(`./images/${name}...`): Vite 5's
+            // dynamic-import-vars builds a broken lookup key when the project
+            // path contains glob chars such as "(" -- every icon fell back to ✕.
+            return await icons[`./images/${this.name}.svg`]();
           } catch (err) {
             // eslint-disable-next-line no-return-await, import/no-unresolved
             return await import('./images/close.svg?component');

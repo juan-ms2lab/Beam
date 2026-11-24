@@ -1,0 +1,207 @@
+{
+ "format": 1,
+ "kind": "profiles",
+ "key": "SHEHDS/Bee Eye 19x40W",
+ "data": {
+  "name": "Bee Eye 19x40W",
+  "shortName": "BeeEye19",
+  "categories": [
+   "Moving Head",
+   "Color Changer"
+  ],
+  "meta": {
+   "authors": [
+    "MiniDesk"
+   ],
+   "createDate": "2026-11-23",
+   "lastModifyDate": "2026-11-23"
+  },
+  "physical": {
+   "dimensions": [
+    330,
+    420,
+    260
+   ],
+   "power": 760,
+   "bulb": {
+    "type": "LED"
+   },
+   "lens": {
+    "degreesMinMax": [
+     4,
+     60
+    ]
+   }
+  },
+  "availableChannels": {
+   "Pan": {
+    "fineChannelAliases": [
+     "Pan fine"
+    ],
+    "capability": {
+     "type": "Pan",
+     "angleStart": "0deg",
+     "angleEnd": "540deg"
+    }
+   },
+   "Tilt": {
+    "fineChannelAliases": [
+     "Tilt fine"
+    ],
+    "capability": {
+     "type": "Tilt",
+     "angleStart": "0deg",
+     "angleEnd": "270deg"
+    }
+   },
+   "P/T Speed": {
+    "capability": {
+     "type": "PanTiltSpeed",
+     "speedStart": "fast",
+     "speedEnd": "slow"
+    }
+   },
+   "Zoom": {
+    "capability": {
+     "type": "Zoom",
+     "angleStart": "60deg",
+     "angleEnd": "4deg"
+    }
+   },
+   "Rotate": {
+    "capabilities": [
+     {
+      "dmxRange": [
+       0,
+       9
+      ],
+      "type": "NoFunction"
+     },
+     {
+      "dmxRange": [
+       10,
+       255
+      ],
+      "type": "Rotation",
+      "speedStart": "slow CW",
+      "speedEnd": "fast CW",
+      "comment": "bee-eye lens rotation"
+     }
+    ]
+   },
+   "Dimmer": {
+    "capability": {
+     "type": "Intensity"
+    }
+   },
+   "Strobe": {
+    "capabilities": [
+     {
+      "dmxRange": [
+       0,
+       9
+      ],
+      "type": "ShutterStrobe",
+      "shutterEffect": "Open"
+     },
+     {
+      "dmxRange": [
+       10,
+       255
+      ],
+      "type": "ShutterStrobe",
+      "shutterEffect": "Strobe",
+      "speedStart": "0.5Hz",
+      "speedEnd": "25Hz"
+     }
+    ]
+   },
+   "Red": {
+    "capability": {
+     "type": "ColorIntensity",
+     "color": "Red"
+    }
+   },
+   "Green": {
+    "capability": {
+     "type": "ColorIntensity",
+     "color": "Green"
+    }
+   },
+   "Blue": {
+    "capability": {
+     "type": "ColorIntensity",
+     "color": "Blue"
+    }
+   },
+   "White": {
+    "capability": {
+     "type": "ColorIntensity",
+     "color": "White"
+    }
+   },
+   "Color Temp": {
+    "capabilities": [
+     {
+      "dmxRange": [
+       0,
+       9
+      ],
+      "type": "NoFunction"
+     },
+     {
+      "dmxRange": [
+       10,
+       255
+      ],
+      "type": "ColorTemperature",
+      "colorTemperatureStart": "2700K",
+      "colorTemperatureEnd": "6500K"
+     }
+    ]
+   },
+   "Color Macro": {
+    "capability": {
+     "type": "NoFunction",
+     "comment": "assumed"
+    }
+   },
+   "Static FX": {
+    "capability": {
+     "type": "NoFunction",
+     "comment": "assumed"
+    }
+   },
+   "Dynamic FX": {
+    "capability": {
+     "type": "NoFunction",
+     "comment": "assumed"
+    }
+   }
+  },
+  "modes": [
+   {
+    "name": "17ch",
+    "channels": [
+     "Pan",
+     "Pan fine",
+     "Tilt",
+     "Tilt fine",
+     "P/T Speed",
+     "Zoom",
+     "Rotate",
+     "Dimmer",
+     "Strobe",
+     "Red",
+     "Green",
+     "Blue",
+     "White",
+     "Color Temp",
+     "Color Macro",
+     "Static FX",
+     "Dynamic FX"
+    ]
+   }
+  ]
+ }
+}

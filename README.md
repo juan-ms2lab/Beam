@@ -14,6 +14,27 @@
 
 ---
 
+> **This is a fork.** Beatline Beam is created and maintained by **Paul van Dinther**
+> ([dinther/Beam](https://github.com/dinther/Beam)) and licensed under the
+> [GNU GPL v3](./COPYING); this fork keeps that license. All credit for Beam goes to
+> the original author — please report Beam issues and send contributions upstream.
+>
+> **What this fork adds** (branch `minidesk`): a ready-made test rig for
+> [MiniDesk](https://github.com/juan-ms2lab/minidesk-ios), an iPhone/iPad Art-Net
+> lighting desk by JFS - Imagiro.
+> - `minidesk-test/MiniDesk.beam` — 5 SHEHDS Spot 100W + 6 Bee Eye 19x40W, universe 0
+> - `minidesk-test/minidesk-demo.json` — the matching MiniDesk demo show (also built in:
+>   MiniDesk → Setup → Load Demo Show)
+> - `minidesk-test/Profiles/SHEHDS/` — fixture profiles (copy to
+>   `~/Documents/Beatline/Beam/Library/Profiles/SHEHDS/`; some channel ranges are assumed)
+> - `Launch Beam.command` — macOS double-click launcher (dev mode) opening the rig
+> - a small fix so icons load when the project path contains `(` `)`
+>
+> A macOS (Apple Silicon) build is on this fork's
+> [Releases](https://github.com/juan-ms2lab/Beam/releases) page. It is unsigned:
+> right-click → Open the first time.
+
+
 > **Alpha.** Beam is early software under active development. Things move,
 > break and get renamed. Please report anything odd on the
 > [issue tracker](https://github.com/dinther/Beam/issues).

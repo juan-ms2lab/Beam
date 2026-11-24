@@ -105,3 +105,42 @@ exist. Nothing written for effect.
   conversational but still plain.
 - Contributions that arrive with essay comments or sentence titles are
   trimmed to this standard before they land.
+
+## Local setup: MiniDesk test rig (this clone only)
+
+This clone is used as the visualizer for the MiniDesk iOS Art-Net desk
+(`../minidesk`). Receive-only: MiniDesk (Simulator or iPhone/iPad) broadcasts
+Art-Net universe 0 on UDP 6454 and Beam draws it.
+
+- **Launch:** double-click `Launch Beam.command` (dev mode,
+  `npx electron-vite dev -- "$PWD/minidesk-test/MiniDesk.beam"`, log in
+  `tools/dev/out/app.log`). It does nothing if UDP 6454 is already bound. If
+  `node_modules` is missing (cleaned to save ~800 MB in Dropbox) it runs `npm ci`
+  first, so that launch takes about a minute longer.
+- **Project:** `minidesk-test/MiniDesk.beam` (11 fixtures, universe 0, all hung
+  4 m up, rotation x = 180°, 1.5 m per MiniDesk grid step, audience camera).
+  Original/working copy also at `~/Documents/Beatline/Beam/MiniDesk.beam`.
+- **Profiles:** `minidesk-test/Profiles/SHEHDS/` (copies). Beam loads them from
+  `~/Documents/Beatline/Beam/Library/Profiles/SHEHDS/`; copy them back there on a
+  new machine.
+  - `Spot 100W 6-Prism.json` 14 ch (manual order): Pan, Pan fine, Tilt, Tilt fine,
+    P/T speed, Color wheel, Static gobo, Dynamic gobo, Gobo rot, Prism, Prism rot,
+    Dimmer, Strobe, Focus. 540°/270°, 16° beam.
+  - `Bee Eye 19x40W.json` 17 ch, **assumed from ch 7 on** (ch 1-6 confirmed:
+    Pan, Pan fine, Tilt, Tilt fine, P/T speed, Zoom).
+  - In-channel ranges (wheel slots, strobe-open, zoom 60°→4°) are assumptions.
+- **Patch / positions** (MiniDesk grid x, y; x<0 house left, y<0 front):
+
+  | Fixture | DMX | x | y |
+  |---|---|---|---|
+  | Spot 100W 6-Prism ×5 | 1, 15, 29, 43, 57 | -3, -2, 0, 2, 3 | +2 (back, +3 m) |
+  | Bee Eye 19x40W ×6 | 71, 88, 105, 122, 139, 156 | -3, -2, -1, 1, 2, 3 | -1 (-1.5 m) |
+
+- **One sender only:** two MiniDesk instances on universe 0 make Beam flicker
+  (last packet wins). Quit the others.
+- **Local patch:** `src/views/components/uikit/icons/uikit.icon.vue` uses
+  `import.meta.glob` instead of a template-literal dynamic import. Vite 5.4.21
+  mis-escapes `(`/`)` in the path ("Dropbox (Personal)"), so every icon fell back
+  to ✕. Revert with `git checkout -- <file>` if the folder moves out of a
+  parenthesized path. Not committed upstream.
+- Don't change Dropbox sync settings on this folder.
