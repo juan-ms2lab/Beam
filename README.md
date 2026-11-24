@@ -22,7 +22,7 @@
 > **What this fork adds** (branch `minidesk`): a ready-made test rig for
 > [MiniDesk](https://github.com/juan-ms2lab/minidesk-ios), an iPhone/iPad Art-Net
 > lighting desk by JFS - Imagiro.
-> - `minidesk-test/MiniDesk.beam` — 5 SHEHDS Spot 100W + 6 Bee Eye 19x40W, universe 0
+> - `minidesk-test/MiniDesk.beam` — 5 SHEHDS Spot 100W + 6 Bee Eye 19x40W (universe 0) on a truss frame over a stage with a DJ table and DJ cutout
 > - `minidesk-test/minidesk-demo.json` — the matching MiniDesk demo show (also built in:
 >   MiniDesk → Setup → Load Demo Show)
 > - `minidesk-test/Profiles/SHEHDS/` — fixture profiles (copy to
