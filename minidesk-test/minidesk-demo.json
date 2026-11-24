@@ -1,30 +1,6 @@
 {
   "cues": [
     {
-      "data": [],
-      "id": "42DEE044-E929-4BF2-B834-201EB4E9C777",
-      "name": "",
-      "used": false
-    },
-    {
-      "data": [],
-      "id": "99889677-B063-43E0-A7A4-B2F965387B6E",
-      "name": "",
-      "used": false
-    },
-    {
-      "data": [],
-      "id": "4068A169-1925-4143-8655-9E634A38F141",
-      "name": "",
-      "used": false
-    },
-    {
-      "data": [],
-      "id": "03612F0D-7FFF-4656-B19D-65A84A203833",
-      "name": "",
-      "used": false
-    },
-    {
       "color": "red",
       "data": [
         105,
@@ -2509,6 +2485,30 @@
       "name": "Start",
       "time": 0.9999999999999999,
       "used": true
+    },
+    {
+      "data": [],
+      "id": "42DEE044-E929-4BF2-B834-201EB4E9C777",
+      "name": "",
+      "used": false
+    },
+    {
+      "data": [],
+      "id": "99889677-B063-43E0-A7A4-B2F965387B6E",
+      "name": "",
+      "used": false
+    },
+    {
+      "data": [],
+      "id": "4068A169-1925-4143-8655-9E634A38F141",
+      "name": "",
+      "used": false
+    },
+    {
+      "data": [],
+      "id": "03612F0D-7FFF-4656-B19D-65A84A203833",
+      "name": "",
+      "used": false
     },
     {
       "data": [
