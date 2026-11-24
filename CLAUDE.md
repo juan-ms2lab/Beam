@@ -118,7 +118,7 @@ Art-Net universe 0 on UDP 6454 and Beam draws it.
   `node_modules` is missing (cleaned to save ~800 MB in Dropbox) it runs `npm ci`
   first, so that launch takes about a minute longer.
 - **Project:** `minidesk-test/MiniDesk.beam` (11 fixtures, universe 0, all hung
-  4 m up, rotation x = 180°, 1.5 m per MiniDesk grid step, audience camera).
+  6 m up on a truss frame (stage 0.6 m, DJ table + cutout at the front edge), rotation x = 180°, 1.5 m per MiniDesk grid step, audience camera).
   Original/working copy also at `~/Documents/Beatline/Beam/MiniDesk.beam`.
 - **Profiles:** `minidesk-test/Profiles/SHEHDS/` (copies). Beam loads them from
   `~/Documents/Beatline/Beam/Library/Profiles/SHEHDS/`; copy them back there on a
